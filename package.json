@@ -1,0 +1,30 @@
+{
+  "name": "github-ping-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot that monitors GitHub activities for openlabsdevs account",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "build": "echo \"No build needed for JavaScript\"",
+    "start": "node index.js",
+    "test": "npm test"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "github",
+    "monitor",
+    "notifications"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
